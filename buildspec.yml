@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Logging in to Docker Hub...
       # Type the command to log in to your Docker Hub account here.
-      - docker login devops.nxp.com -u=docker1 -p=docker1
+      - sudo docker login devops.nxp.com -u=docker1 -p=docker1
 
   install:
     commands:
