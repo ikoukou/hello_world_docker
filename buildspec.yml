@@ -10,7 +10,7 @@ phases:
   install:
     commands:
       # install and start Docker daemon if needed
-      - timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
+      #- timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
 
   build:
     commands:
